@@ -1,0 +1,31 @@
+{
+  "name": "28_arquitectura_aplicacion",
+  "version": "1.0.0",
+  "description": "Clonar el repositorio en local:\r ```Shell\r git clone https://github.com/DWBE-ONLINE-1/28_arquitectura_aplicacion.git\r ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DWBE-ONLINE-1/28_arquitectura_aplicacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DWBE-ONLINE-1/28_arquitectura_aplicacion/issues"
+  },
+  "homepage": "https://github.com/DWBE-ONLINE-1/28_arquitectura_aplicacion#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
